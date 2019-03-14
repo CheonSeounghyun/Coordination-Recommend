@@ -1,1 +1,4 @@
-#������Ʈ ������ ���� �� ��ũ
+#프로젝트 진행중 참조 된 링크
+
+https://jeongchul.tistory.com/535?category=493892
+#딥러닝을 활용한 패션 유사 상품 어플리케이션 
