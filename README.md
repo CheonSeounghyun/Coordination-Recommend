@@ -1,6 +1,9 @@
 # Coordination-Recommend
 2019-1학기 Capston Design project
 
+깃허브에는 기본적으로는 100mb가 넘는 파일을 push 할 수 없습니다. 
+push하기 전에 확인하시기 바랍니다.
+
 MIT License
 
 Copyright (c) 2019 Cheon Seounghyun, Lee yookyum, Park jihye, Choi yesom
