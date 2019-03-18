@@ -2,3 +2,7 @@
 
 https://jeongchul.tistory.com/535?category=493892
 #딥러닝을 활용한 패션 유사 상품 어플리케이션 
+https://github.com/jsanchezsierra/DressApp
+#유사 코디 어플레이케이션 참조 
+https://www.huffpost.com/entry/fashion-trends-2018_n_5c0167fde4b0b69ed37ac9de
+#2018 상위 8개 패션 트렌드 
