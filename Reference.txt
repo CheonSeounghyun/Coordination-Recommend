@@ -23,3 +23,4 @@ https://prezi.com/x0rdukz3joob/clothing-recommender-system/
 
 https://github.com/MLJejuCamp2017/clothing-recommender
 #Clothing Recommender System 깃허브 
+
