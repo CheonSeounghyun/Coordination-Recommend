@@ -1,4 +1,4 @@
-# Coordination-Recommend
+# Fashion-Recommend-Website
 2019-1학기 Capston Design project
 
 깃허브에는 기본적으로는 100mb가 넘는 파일을 push 할 수 없습니다. 
