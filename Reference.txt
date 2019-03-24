@@ -13,6 +13,7 @@ https://www.kaggle.com/shivamb/how-autoencoders-work-intro-and-usecases/notebook
 #How Autoenoders Work
 
 https://cloud.google.com/vision/
+https://statkclee.github.io/deep-learning/gc-vision.html
 #구글 클라우드 비젼 API
 
 https://m.blog.naver.com/PostView.nhn?blogId=naver_search&logNo=221081268746&proxyReferer=https%3A%2F%2Fwww.google.com%2F
@@ -38,5 +39,16 @@ https://kd3302.tistory.com/483
 
 https://templated.co/
 # 홈페이지 무료 템플릿
+
+http://pythonstudy.xyz/python/article/301-Django-%EC%86%8C%EA%B0%9C
+https://tutorial.djangogirls.org/ko/
+https://docs.djangoproject.com/ko/2.1/intro/
+https://rednooby.tistory.com/category/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/Django%EA%B8%B0%EC%B4%88
+http://raccoonyy.github.io/useful-korean-blog-for-python-and-django/
+https://cupjoo.tistory.com/category/%EC%9B%B9/Django
+# 장고 튜토리얼 
+
+https://duzi077.tistory.com/126
+# 윈도우10 + Pycharm + Django + MySQL 연동
 
 
