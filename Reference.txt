@@ -51,4 +51,7 @@ https://cupjoo.tistory.com/category/%EC%9B%B9/Django
 https://duzi077.tistory.com/126
 # 윈도우10 + Pycharm + Django + MySQL 연동
 
+http://chittagongit.com/icon/clothing-icon-png-8.html
+# 옷 아이콘
+
 
