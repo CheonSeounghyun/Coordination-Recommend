@@ -1,6 +1,6 @@
-#gitigore 파일 
+﻿#gitigore 파일 
 #제외 파일 추가하기
 
 .idea/
-_pycache_/
+__pycache__/
 *.pyc
