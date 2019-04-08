@@ -5,3 +5,9 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+image/
+imageai/
+DenseNet-BC-121-32.h5
+inception_v3_weights_tf_dim_ordering_tf_kernels.h5
+resnet50_weights_tf_dim_ordering_tf_kernels.h5
+squeezenet_weights_tf_dim_ordering_tf_kernels.h5
