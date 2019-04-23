@@ -1,12 +1,19 @@
 ﻿#gitigore 파일 
 #제외 파일 추가하기
 
+#환경설정, 캐시
 .idea/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+#이미지파일
 image/
+
+#api
 imageai/
+
+#학습모델
 DenseNet-BC-121-32.h5
 inception_v3_weights_tf_dim_ordering_tf_kernels.h5
 resnet50_weights_tf_dim_ordering_tf_kernels.h5
