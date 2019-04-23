@@ -7,11 +7,9 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-#이미지파일
+#폴더,파일
 image/
-
-#api
-imageai/
+Reference.txt
 
 #학습모델
 DenseNet-BC-121-32.h5
