@@ -15,12 +15,8 @@ Including another URLconf
 """
 
 from django.contrib import admin
-from django.conf.urls import url
-
-
-from recommend.views import title
-
+from django.urls import path, include
 urlpatterns = [
-    url(r'admin/', admin.site.urls),
-    url(r'^$', title)
+    path('admin/', admin.site.urls),
+    path('', include('recommend.urls'))
 ]

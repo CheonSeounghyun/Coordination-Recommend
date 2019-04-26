@@ -16,6 +16,16 @@
 
 
 <p><input type="button" value="시작" onclick="alert('코디를 시작합니다')"/></p>
+{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a href="/recommend/{{ question.id }}/">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+
 <font size=0.8 color = #BDBDBD>
 Copyright (c) 2019 Cheon Seounghyun, Lee yookyum, Park jihye, Choi yesom
 

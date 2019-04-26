@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'recommend',
+    'recommend.apps.RecommendConfig',
 
     'django_extensions',
 ]
