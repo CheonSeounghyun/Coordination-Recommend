@@ -1,6 +1,7 @@
 from django.contrib import admin
-from recommend.models import Question, Choice
+
 # Register your models here.
+from recommend.models import Question, Choice
 
 
 admin.site.register(Question)
