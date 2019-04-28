@@ -1,5 +1,8 @@
+<center>
 <h1>{{ question.question_text }}</h1>
+{% load staticfiles %}
 
+<img src="{% static 'sample2.jpg' %}">
 <ul>
 {% for choice in question.choice_set.all %}
     <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
@@ -7,3 +10,4 @@
 </ul>
 
 <a href="{% url 'recommend:detail' question.id %}">Vote again?</a>
+</center>

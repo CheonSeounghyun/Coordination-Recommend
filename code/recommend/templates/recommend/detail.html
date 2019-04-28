@@ -1,6 +1,11 @@
+<center>
 <h1>{{ question.question_text }}</h1>
 
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+{% load staticfiles %}
+
+<img src="{% static 'sample1.jpg' %}">
 
 <form action="{% url 'recommend:vote' question.id %}" method="post">
 {% csrf_token %}
@@ -10,3 +15,4 @@
 {% endfor %}
 <input type="submit" value="Vote" />
 </form>
+</center>

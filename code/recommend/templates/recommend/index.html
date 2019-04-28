@@ -15,11 +15,12 @@
 
 
 
-<p><input type="button" value="시작" onclick="alert('코디를 시작합니다')"/></p>
+
+
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
-        <li><a href="/recommend/{{ question.id }}/">{{ question.question_text }}</a></li>
+        <p><button type="button"><a href="/recommend/{{ question.id }}/">Start</a></button></p>
     {% endfor %}
     </ul>
 {% else %}
