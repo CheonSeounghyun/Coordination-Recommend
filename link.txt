@@ -1,3 +1,12 @@
 https://towardsdatascience.com/how-to-build-a-simple-recommender-system-in-python-375093c3fb7d?gi=b35f7d6b5cdf
 https://stackabuse.com/creating-a-simple-recommender-system-in-python-using-pandas/
 https://www.datacamp.com/community/tutorials/recommender-systems-python
+
+https://github.com/hardikvasa/google-images-download
+https://github.com/OlafenwaMoses/ImageAI
+https://pypi.org/project/Google-Images-Search/
+https://pypi.org/project/google_images_download/1.0.1/
+ÆÄÀÌ½ã surprise 
+https://datascienceschool.net/view-notebook/fcd3550f11ac4537acec8d18136f2066/
+https://www.fun-coding.org/recommend_basic7.html
+
