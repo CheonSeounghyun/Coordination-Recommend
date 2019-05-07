@@ -1,0 +1,3 @@
+https://towardsdatascience.com/how-to-build-a-simple-recommender-system-in-python-375093c3fb7d?gi=b35f7d6b5cdf
+https://stackabuse.com/creating-a-simple-recommender-system-in-python-using-pandas/
+https://www.datacamp.com/community/tutorials/recommender-systems-python
