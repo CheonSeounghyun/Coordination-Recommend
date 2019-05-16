@@ -16,7 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from capston_design.views import HomeView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    path('', HomeView.as_view(), name='home'),
     path('recommend/', include('recommend.urls')),
 ]
