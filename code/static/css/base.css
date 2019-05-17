@@ -8,23 +8,23 @@ div#header {
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 30px;
+    height: 50px;
     width: 100%;
     display: table;
-    background-color: blue;
+    background-color: #034f84;
 }
 
 div#menu {
     position: absolute;
     top: 50px;
     left: 0px;
-    height: 20px;
+    height: 30px;
     width: 100%;
     display: table;
     table-layout: fixed;
     border-spacing: 40px 0px;
-    background: #00BFFF;
-    font-size: 8px;
+    background: #91A8d0;
+    font-size: 12px;
 }
 
 div#content {

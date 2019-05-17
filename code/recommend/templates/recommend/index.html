@@ -1,48 +1,11 @@
+{% extends "base.html" %}
 
+{% block content %}
 <html lang="en">
-<center>
-<head>
-    <meta charset="UTF-8">
-    <title>Fashion coordy recommendation for 20's men and girls</title>
-</head>
-    </center>
+
 <center>
 <body>
-{% load staticfiles %}
-<link rel="stylesheet" type="text/css" href="{% block stylesheet %}{% static "css/base.css" %}{% endblock %}" />
-<div id="header">
-    <h2 class="maintitle">Easy&amp;Fast Django Web Programming</h2>
-    <h4 class="welcome">Welcome, <a href="#">hyun</a> /
-                <a href="#">Change Password</a> /
-                <a href="#">Logout</a>
-    </h4>
-</div>
 
-<div id="menu">
-    <li><a href="{% url 'home' %}">Home</a></li>
-    <li><a href="#">Photo</a></li>
-    <li><a href="{% url 'recommend:index' %}">Recommend</a> </li>
-    <!--<li><a href="#">Bookmark</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Add&bigtriangledown;</a>
-        <ul>
-            <li><a href="#">Bookmark</a></li>
-            <li><a href="#">Blog</a></li>
-	    <li><a href="#">Photo</a></li>
-        </ul>
-    </li>
-    <li><a href="#">Change&bigtriangledown;</a>
-        <ul>
-            <li><a href="#">Bookmark</a></li>
-            <li><a href="#">Blog</a></li>
-	    <li><a href="#">Photo</a></li>
-        </ul>
-    </li>
-
-    <li><a href="#">Archive</a></li>
-    <li><a href="#">Search</a></li>
-    <li><a href="#">Admin</a></li>
-    -->
 </div>
 <h1>Fashion People</h1>
 <p> Fashion coordy recommendation for 20's men and girls in Website</p>
@@ -59,19 +22,7 @@
     <p>No recommend are available.</p>
 {% endif %}
 
-<font size=0.8 color = #BDBDBD>
-Copyright (c) 2019 Cheon Seounghyun, Lee yookyum, Park jihye, Choi yesom
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
-    to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
-    and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-    WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-</font>
 </body>
     </center>
 </html>
+{% endblock %}

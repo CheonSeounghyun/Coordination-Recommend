@@ -5,7 +5,7 @@
 <title>{% block title %}Django Web Programming{% endblock %}</title>
 
 {% load staticfiles %}
-<link rel="stylesheet" type="text/css" href="{% block stylesheet %}{% static "css/base.css" %}{% endblock %}" />
+<link rel="stylesheet" type="text/css" href="{% block stylesheet %}{% static "css/base.css" %}{% endblock %}?ver=1" />
 <link rel="stylesheet" type="text/css" href="{% block extrastyle %}{% endblock %}" />
 
 </head>
@@ -21,8 +21,8 @@
 </div>
 
 <div id="menu">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Photo</a></li>
+    <li><a href="{% url 'home' %}">Home</a></li>
+    <li><a href="{% url 'photo:index' %}">Photo</a></li>
     <li><a href="{% url 'recommend:index' %}">Recommend</a> </li>
     <!--<li><a href="#">Bookmark</a></li>
     <li><a href="#">Blog</a></li>
