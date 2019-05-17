@@ -11,7 +11,6 @@ __pycache__/
 image/
 Reference.txt
 media/
-photo/
 
 #학습모델
 DenseNet-BC-121-32.h5
