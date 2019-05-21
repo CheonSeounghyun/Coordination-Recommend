@@ -1,0 +1,30 @@
+최예솜-PCA
+
+ 주성분 분석( Principal component analysis; PCA)은 고차원의 데이터를 저차원의 데이터로 환원시키는 기법이다.
+
+http://t-robotics.blogspot.com/2013/07/pca.html#.XOJpd8gzZPY
+미스코리아 얼굴들은 다 똑같다? PCA의 마법!--놀랍게도 6개의 eigenface (대표적 얼굴)이면 충분했다는 것,6개의 얼굴을 적절히 조합하면 20명의 얼굴을 모두 만들 수 있다는 것
+패션코디 추천웹사이트에서도 원피스,바지,셔츠 등 이런 목록들의 특징들을 추출해 추천해줄수 있는 시스템에 적합하다고 생각합니다.
+단점은 
+우리가 주목해야할 몇 개의 "주 관절값"과 이에 따라 결정되는 "군더더기"들로 나누어지지 않을까요? 이렇게 어지럽게 많은 데이터들을 "주된 특성"만 살리는 방향으로 압축시켜주는 방법 중 하나가 바로 PCA (Principal Component Analysis) 입니다. 이제 230개 노노~ 10개 정도만 신경써주세요!
+
+데이터의 압축에 쓰이는 PCA의 핵심 아이디어는 여러 방향 중 데이터가 가장 넓게 퍼져있는 방향으로 축을 잡아 표현하는 것입니다. 수학적으로 말하자면 데이터의 variance(분산)가 가장 큰 방향으로 projection(정사영)시키는 것
+
+출처 : http://gael-varoquaux.info/scientific_computing/ica_pca/
+
+PCA는 기본적으로 다음과 같은 가정을 가지고 데이터를 분석합니다.
+첫째, 데이터를 나타내는 submanifold는 직선의 basis를 가지고 있습니다. 다시 말해서 우리는 달팽이 모양을 따라 움직이는 basis 따위는 취급하지 않는거죠.
+둘째, 큰 분산을 갖는 방향이 중요한 정보를 담고있다고 가정합니다. 위의 그림에서 보면 길쭉하게 늘어진 방향을 가장 중요한 방향으로 생각하고 그곳을 축(basis)으로 데이터들을 투영(projection)하게 되죠.
+셋째, 우리가 찾은 주축(principal component)들은 서로 직교(orthogonal)한다고 생각합니다. 예를 들어 위의 그림을 다시보면, 첫번 째 주축이 가장 길게 즐어선 대각선방향의 벡터가 된다면, 그 다음 주축은 무조건 이것과 직교하는 축을 찾는다는 것이죠.
+
+
+
+PCA가 실패하는 경우. (A)같은 경우 데이터는 theta만으로 표현할 수 있을테지만 PCA의 가정에서는 이러한 것이 불가하다. B 역시 마찬가지로 두 주축이 직교하지 않는 경우 PCA는 적절하지 않은 방법일 수 있다. 
+http://t-robotics.blogspot.com/2015/12/pca.html#.XOJpXcgzZPY
+
+
+
+https://yamalab.tistory.com/32
+파이썬 -pca
+https://datascienceschool.net/view-notebook/f10aad8a34a4489697933f77c5d58e3a/
+
