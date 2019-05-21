@@ -10,7 +10,7 @@ __pycache__/
 #폴더,파일
 image/
 Reference.txt
-media/
+
 
 #학습모델
 DenseNet-BC-121-32.h5
